@@ -101,3 +101,13 @@ This project implements a secure authentication system with role-based access co
 ├── .env                   # Environment variables
 ├── server.js              # Entry point of the application
 └── package.json           # Dependencies and scripts
+
+### Explanation:
+- **controllers/**: Contains the logic for handling requests.
+- **middleware/**: Includes middleware functions for route protection or other logic.
+- **models/**: Defines the schemas for MongoDB models.
+- **routes/**: Contains route handlers for the application, divided into logical sections.
+- **.env**: Stores environment variables.
+- **server.js**: The entry point for the application where the server is initialized.
+- **package.json**: Defines the project dependencies and scripts.
+
